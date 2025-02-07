@@ -1,5 +1,6 @@
 //https://happycoding.io/tutorials/processing/collision-detection
 //I used the source above to help me with collisions
+//There was supposed to be a timer to how long you can last before hitting the 
 void setup() {
   
   size(1000, 1000);
