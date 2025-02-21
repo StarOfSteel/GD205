@@ -2,7 +2,7 @@
 
 //https://www.youtube.com/watch?v=_k_yRbUeVxY&t=788s
 //needed a video that would also teach me more about the terms instead of just making the mechanic
-
+//hello
 PImage ship;
 PImage space;
 PImage enemy;
@@ -55,7 +55,6 @@ void draw() {
 
   
 }
-
 
 void keyPressed() {
   
