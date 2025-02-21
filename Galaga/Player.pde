@@ -1,4 +1,4 @@
-float x1 = 237, x2 = 254, x3 = 271, y1 = 950;
+float x1 = 237, x2 = 254, x3 = 271, y1 = 800;
 float speed = 15;
 
 boolean left = false;

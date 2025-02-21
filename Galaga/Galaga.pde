@@ -13,7 +13,7 @@ ArrayList <Enemy> enemyList;
 
 void setup() {
 
-  size(1000, 1000);
+  size(1000, 900);
   
   space = loadImage("Space.png");
   space.resize(1000,0);
