@@ -21,18 +21,20 @@ void setup() {
   bulletList = new ArrayList<Bullets>(); //constructor
   enemyList = new ArrayList<Enemy>(); //enemy constructor
   
-  e1 = new Enemy(300, 200, 100, 200);
+  e1 = new Enemy(300, 200, 100, 100);
   
   //add arrayList
   enemyList.add(e1);
+  
+
   
 }
 
 void draw() {
   
-  background(255);
-  image(space, -1, 3);
-  character();
+  background(0); //clear screen
+  image(space, -1, 3); //space bacground
+  character(); //main character
  
   println(bulletList.size()); //check the bullet list for bullets
   
@@ -47,6 +49,8 @@ void draw() {
      anEnemy.render();
    
   }
+  
+
   
 }
 

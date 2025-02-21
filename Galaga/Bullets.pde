@@ -5,13 +5,16 @@ class Bullets {
   float y;
   int d;
   int speed;
+  
+  
   //boolean remove; will use when finished
   
   //Bounds, using for hitbox when changing the bullet movement
-  int left; //x
-  int right; //x
-  int top; //y
-  int bottom; //y
+  //int left; //x
+  //int right; //x
+  //int top; //y
+  //int bottom; //y
+  
   
    //constructor
   Bullets(float startingX, float startingY) {

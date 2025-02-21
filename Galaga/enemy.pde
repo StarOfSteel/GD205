@@ -6,8 +6,7 @@ int y;
 Enemy e1;
 
 class Enemy {
-  
-  
+  //enemy's position
   Enemy(int startingX, int startingY, int startingW, int startingH){
     
     x = startingX;
@@ -18,9 +17,10 @@ class Enemy {
   }
   
   void render() {
-    
+    //enemy
     image(enemy, x, y, w, h);
     
   }
+  
   
 }
