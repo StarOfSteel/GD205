@@ -14,8 +14,7 @@ class Bullets {
   //int right; //x
   //int top; //y
   //int bottom; //y
-  
-  
+ 
    //constructor
   Bullets(float startingX, float startingY) {
     
