@@ -1,14 +1,14 @@
-class state {
+class State {
   
-  boolean isMoving = false;
+  boolean isFishing = false;
 
   float x = 300;
   float y;
   
-  void rodDown() {
-    //if (rod == x) {
-      //isMoving = false
-    }
+  //void rodDown() {
+   // if (rod == x) {
+     // isFishing = false
+    //}
     
   }
    
