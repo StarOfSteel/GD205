@@ -5,15 +5,14 @@ class State {
   float x = 300;
   float y;
   
-  //void rodDown() {
+    //void rodDown() {
    // if (rod == x) {
-     // isFishing = false
+     // isFishing = true
     //}
     
-  }
+}
    
   
   
   
   
-}

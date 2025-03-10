@@ -7,6 +7,7 @@ class player {
   
   void rod() {
     
+    rect(300,300,300,300);
      
    }
   
