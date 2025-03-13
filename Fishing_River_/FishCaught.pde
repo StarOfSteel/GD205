@@ -1,4 +1,4 @@
-class caught {
+class Caught {
   
     boolean isCatching = false;
     boolean isCaught = false;

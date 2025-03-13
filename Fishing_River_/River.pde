@@ -1,4 +1,4 @@
-class river { 
+class River { 
   
   
 }

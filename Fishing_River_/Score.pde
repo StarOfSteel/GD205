@@ -1,4 +1,4 @@
-class score {
+class Score {
   
   
 }

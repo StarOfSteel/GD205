@@ -10,6 +10,8 @@ class State {
      // isFishing = true
     //}
     
+    
+    
 }
    
   
