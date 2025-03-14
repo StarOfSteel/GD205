@@ -18,7 +18,12 @@ float x,y,r; //instance, properties of the object
   }
   
   void show() {
-    noFill();
+    // checks if the mouse cursor is over a tadpole
+    if (mouseX > x && mouseX < x + 100 && mouseY > y && mouseY < y + 100){
+      fill(255,0,0); // the color of the tadpole will change to the color red if the mouse cursor is over it
+    } else{
+      noFill(); //if the mouse cursor isn't on a tadpole, it will return to no fill
+    }
     rect(x,y,100,100);
     
   }
