@@ -1,3 +1,6 @@
+// https://www.youtube.com/watch?v=tHvdxw6JNRI
+// https://www.youtube.com/watch?v=tA_ZgruFF9k
+
 int hookState = 1;
 float hookX;
 float hookY;

@@ -45,6 +45,7 @@ void draw() {
      tadpoles[i].edges(); 
   }
   
+  // Draws the player
   player();
 
 }
