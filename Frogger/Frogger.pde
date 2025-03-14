@@ -1,3 +1,9 @@
+// Gameplay: Press spacebar on a fish (square) 3 times to catch a fish and add +1 to the score
+
+// bg music and sounds
+import processing.sound.*;
+SoundFile file;
+
 Tadpole[] tadpoles = new Tadpole[7]; //flyweightfloat 
 Score score = new Score();  // Create scoring instance
 Countdown startTimer;
@@ -18,6 +24,10 @@ void setup() {
   
   //timer for 20 seconds
   startTimer = new Countdown(20); 
+  
+  // Music
+  file = new SoundFile(this, "precious-memories(chosic.com).mp3");
+  file.play();
 
 }
 
