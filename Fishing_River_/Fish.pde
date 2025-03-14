@@ -1,6 +1,4 @@
-Fish f1;
-
-class Fish {
+class Fish { //flyweight
   
   
   void render() {

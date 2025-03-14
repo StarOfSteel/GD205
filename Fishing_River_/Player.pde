@@ -5,11 +5,7 @@ class Player {
   boolean left = false;
   boolean right = false;
   
-  void rod() {
-    
-    rect(300,300,300,300);
-     
-   }
+
   
   
 }
