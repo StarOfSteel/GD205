@@ -1,9 +1,9 @@
-class Log { //Obstacles
+class Tadpole { //Obstacles
   
 float x,y,r; //instance, properties of the object
 
 
-  Log(float _y) {
+  Tadpole(float _y) {
     x = random(width);
     y = _y;
     r = random (1000, 0); 
