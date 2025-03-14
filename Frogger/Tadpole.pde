@@ -1,4 +1,4 @@
-class Tadpole { //Obstacles
+class Tadpole { //Tadpoles
   
 float x,y,r; //instance, properties of the object
 
