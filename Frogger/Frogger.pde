@@ -1,5 +1,6 @@
 Log[] logs = new Log[7]; //flyweightfloat 
 
+
 void setup() {
 
   size(1000,1000);
@@ -18,5 +19,7 @@ void draw() {
      logs[i].show();
      logs[i].edges(); 
   }
+  
+
   
 }
