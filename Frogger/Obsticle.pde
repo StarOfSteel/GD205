@@ -10,7 +10,7 @@ float x,y,r; //instance, properties of the object
     
   }
   
-  void update() {
+  void update() { // Update method
     y = y - random (0,0);
     x = x + random(0,9);
     
