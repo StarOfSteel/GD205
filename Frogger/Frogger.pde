@@ -22,8 +22,8 @@ void setup() {
     tadpoles[i] = new Tadpole(random(30, 50) + i * 60 * random(1, 4));
   }
   
-  //timer for 20 seconds
-  startTimer = new Countdown(20); 
+  //timer for 3 minutes
+  startTimer = new Countdown(181); 
   
   // Music
   file = new SoundFile(this, "precious-memories(chosic.com).mp3");
@@ -39,10 +39,10 @@ void draw() {
   //displays score
    score.display(); 
    
-   //Displays tomer
+   //Displays timer
    startTimer.down();
    fill(0);
-   text(startTimer.getTime(), 20, 20);
+   text(startTimer.getTime(), 880, 40);
    
    if (startTimer.getTime() < 0) {
     System.exit(0);

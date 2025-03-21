@@ -49,3 +49,9 @@ void keyPressed() {
   hookState++;
 
 }
+
+/* 
+SOS NEEDED: I want to make the hook take away a tadpole from the array of tadpoles
+when the hook is on case 3 and the space bar is pressed, 
+preferably by using "splice()" function and "boolean" variable
+*/

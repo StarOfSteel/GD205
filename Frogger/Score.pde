@@ -16,3 +16,7 @@ class Score {
     text("Score: " + score, 20, 40);  // Display score on top-left
   }
 }
+
+/*
+SOS NEEDED: Here we need to add +1 once a tadpole is caught (disapeared)
+*/

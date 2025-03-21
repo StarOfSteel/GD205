@@ -32,7 +32,6 @@ float x,y,r; //instance, properties of the object
     if (x > r) {
       x = width - r;    
   }
-  
 } 
 
 }
